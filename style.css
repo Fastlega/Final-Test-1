@@ -1,0 +1,67 @@
+main {display: flex;
+    flex-direction: column;
+    align-items: center;}
+nav {
+    right:0;
+    top:0;
+    display:flex;
+    position:fixed;
+    justify-content: space-between;
+    background-color:#181414;
+    width:100%;
+    margin:0px;
+}
+h1 {margin:5px;
+color:white;
+font-family:Verdana, Geneva, Tahoma, sans-serif}
+.navy {display:flex;}
+.navbar {color:white;
+margin:5px;}
+article{
+    display: flex;
+    height: 100%;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.footerbar {
+    display: flex;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #181414;
+        color: white;
+         text-align: center;
+}
+a {margin:5px;
+  color:white;
+}
+a:hover {
+    color: red;}
+.navbar:hover{color:red;}
+.button {border:0px;
+        color:#2596be;
+    background-color: white;}
+section {display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+}
+.button:hover{
+    color:darkblue;
+}
+@media (max-width:1247px){
+    article {flex-direction: column;}
+}
+#fender_logo {height:50px;
+width:100px;}
+img {
+    height:150px;
+    width:50px;
+}
